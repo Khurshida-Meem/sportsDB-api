@@ -42,7 +42,7 @@ const showData = datas => {
                 <h5 class="card-title">${data.strTeam}</h5>
                 <p class="card-text">This is a wider card with supporting text below as anaturallead-in to additional content. This content is a little bit longer.</p>
             </div>
-            <button onclick="loadTeamInfo(${data.idTeam})">See more</button>
+            <button class="btn btn-outline-success" onclick="loadTeamInfo(${data.idTeam})">See more</button>
         </div>
         `
         divContainer.appendChild(div);
